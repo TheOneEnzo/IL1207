@@ -1,0 +1,18 @@
+# KiCad temporary/cache files
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.tmp
+*.lck
+*.cache
+*.log
+
+# Fabrication outputs (optional)
+*.zip
+*.gbr
+*.drl
+
+# System files
+.DS_Store
+Thumbs.db

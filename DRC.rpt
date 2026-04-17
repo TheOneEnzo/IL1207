@@ -1,0 +1,90 @@
+** Drc report for LabIL1207.kicad_pcb **
+** Created on 2026-04-17T12:59:06 **
+** Report includes: Errors, Warnings **
+
+** Found 17 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(138.0000 mm, 67.2900 mm): PTH pad 4 [/VOUT] of J3
+    @(139.0000 mm, 67.2900 mm): PTH pad 3 [GND] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(139.0000 mm, 67.2900 mm): PTH pad 3 [GND] of J3
+    @(140.0000 mm, 67.2900 mm): PTH pad 2 [/TX] of J3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(140.0000 mm, 67.2900 mm): PTH pad 2 [/TX] of J3
+    @(141.0000 mm, 67.2900 mm): PTH pad 1 [/RX] of J3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(135.5000 mm, 43.7375 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(135.5000 mm, 42.2125 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(134.7375 mm, 44.5000 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(134.7375 mm, 42.9750 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(134.7375 mm, 41.4500 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(133.9750 mm, 43.7375 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(133.9750 mm, 42.2125 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(133.2125 mm, 44.5000 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(133.2125 mm, 42.9750 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(133.2125 mm, 41.4500 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(132.4500 mm, 43.7375 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(132.4500 mm, 42.2125 mm): PTH pad 39 [GND] of U1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(113.0000 mm, 34.0000 mm): Rectangle on Edge.Cuts
+    @(143.7750 mm, 28.0250 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(113.0000 mm, 34.0000 mm): Rectangle on Edge.Cuts
+    @(125.5350 mm, 28.0250 mm): Segment of U1 on F.Silkscreen
+
+** Found 4 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.2500 mm, 49.2500 mm): Track [GND] on F.Cu, length 6.5000 mm
+    @(132.4500 mm, 44.5000 mm): Track [GND] on F.Cu, length 4.9568 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(150.2250 mm, 35.5000 mm): Track [GND] on F.Cu, length 2.0250 mm
+    @(145.7250 mm, 37.0000 mm): Track [GND] on F.Cu, length 1.9304 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(150.2250 mm, 37.5250 mm): Track [GND] on F.Cu, length 0.0354 mm
+    @(150.2500 mm, 41.4500 mm): Track [GND] on F.Cu, length 2.5500 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.0250 mm, 38.7500 mm): Track [GND] on F.Cu, length 0.5750 mm
+    @(150.2250 mm, 37.5250 mm): Track [GND] on F.Cu, length 0.0354 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
