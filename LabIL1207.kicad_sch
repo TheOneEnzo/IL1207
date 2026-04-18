@@ -3529,16 +3529,6 @@
 		)
 		(uuid "8e7192e3-5230-4a36-974c-7235d549de10")
 	)
-	(text "Resistor som får spänningsfall till 3.3V från 5V \n"
-		(exclude_from_sim no)
-		(at 56.388 22.352 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a90a4e63-9227-41ee-8b82-b61b678dee63")
-	)
 	(text "MCU programmable pins\n"
 		(exclude_from_sim no)
 		(at 92.71 84.582 0)
